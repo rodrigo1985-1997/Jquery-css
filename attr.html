@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>METODO ATTR</title>
+    <script src="https://code.jquery.com/jquery-1.7.2.min.js"></script>
+</head>
+
+<body>
+    <h1 class="saludo">hola a todos comapañeros</h1>
+    <p id="parrafo" class="saludo">saludo a todos</p>
+    <img id="imagen1" src="attr.png" alt="imagen ejemplo 1">
+    <script>
+        $(function () {
+            //Metodo attr
+            $('#imagen1').click(function () {
+                $('#imagen1').attr('src', 'attr2.jpg');
+            });
+        });
+    </script>
+</body>
+
+</html>
